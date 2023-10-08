@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/law.svg" type="image/x-icon">
+    <title>SLS & advogados associados</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Escritório" name="keywords">
+    <meta content="Advocacia em Tangará da Serra" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/estilo.css" rel="stylesheet">
+	
+	<style>
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    /* Estilos adicionais para o botão */
+  </style>
+	
+</head>
+
+<body>
+
+	<script src="js/script.js"></script> <!-- rolagem -->
+
+    <!-- Header Start -->
+    <header id="cabecalho" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary d-none d-lg-block">
+				<h1 class="sls">SLS</h1>
+				<p class="adv">Advogados associados</p>
+            </div>
+            <div class="col-lg-9">
+                <div class="row bg-white border-bottom d-none d-lg-flex">
+                    <div class="col-lg-7 text-left">
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-3">
+                            <i class="fa fa-envelope text-primary mr-2"></i>
+                            <small>financeiro@slsadvogados.com.br</small>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                            <i class="fa fa-phone-alt text-primary mr-2"></i>
+                            <small>(65) 3326-6454</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-right">
+                        <div class="d-inline-flex align-items-center p-2">
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="https://www.facebook.com/slsadvogadosassociados" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="https://www.linkedin.com/company/sls-advogados-associados/about/" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="https://www.instagram.com/slsadvogadosassociados/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 display-4 text-primary text-uppercase">SLS</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a class="nav-item nav-link" href="#section1">Quem somos</a>
+                            <a href="blog.html" class="nav-item nav-link">Blog</a>
+                            <a href="#" class="nav-item nav-link">Estágio</a>
+<a href="#atuacao" class="nav-item nav-link">Atuação</a>
+                            
+                        </div>
+                       <a id="botao-contato" class="btn btn-primary py-3 px-5 mt-2" onclick="openPopup()" href="#contato-link">Contato</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+<!-- Popup para o contato -->
+<!--<div id="popup" class="popup">
+  <h3>Whatsapp</h3>
+  <p>65 99987-6296</p>
+  <button onclick="closePopup()">Fechar</button>
+</div>-->
+
+<script>
+function openPopup() {
+  var popup = document.getElementById("popup");
+  popup.style.display = "block";
+}
+
+function closePopup() {
+  var popup = document.getElementById("popup");
+  popup.style.display = "none";
+}
+</script>
+<!-- Fim do popup-->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 id="animated-title" class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">SLS - Advogados associados</h4>
+                            <h3 id="animated-title2" class="display-2 text-capitalize text-white mb-4">20 anos de escritório!</h3>
+                            <a id="animated-title3" class="btn btn-primary py-3 px-5 mt-2" onclick="scrollToAnchor('section1')">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 id="animated-title" class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Assessoria jurídica</h4>
+                            <h3 id="animated-title2" class="display-2 text-capitalize text-white mb-4">Soluções & estratégias</h3>
+                            <a id="animated-title3" class="btn btn-primary py-3 px-5 mt-2" onclick="scrollToAnchor('section1')">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-prev-icon"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-next-icon"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="section1">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img id="img1" class="img-fluid rounded" src="img/about.png" alt="">
+                </div>
+                <div class="col-lg-7 mt-4 mt-lg-0">
+                    <h2 class="position-relative text-center bg-white text-primary rounded p-3 mt-4 mb-4 d-none d-lg-block" style="width: 350px; margin-left: -205px;" id="experiencia">47 anos de experiência</h2>
+                    <h6 class="text-uppercase">Sobre</h6>
+                    <h1 class="mb-4">ESCRITÓRIO</h1>
+                    <p>Fundado no ano de 1976 por Francismar Sanches Lopes; no ano de 2002, 
+					transformou-se em sociedade de advogados, 
+					adentrando à sociedade o sócio advogado Luciano de Sales, 
+					surgindo a Sanches Lopes, Sales & Advogados Associados.</p>
+                    <a href="" class="btn btn-primary mt-2">Leia mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5" id="atuacao">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h6 class="text-uppercase">Práticas jurídicas</h6>
+                    <h1 class="mb-4">Áreas de atuação</h1>
+                    <p>
+                     Oferecemos soluções jurídicas confiáveis
+					 e personalizadas para atender às
+					 necessidades dos nossos clientes,
+					 com base em conhecimento sólido,
+					 ética profissional e compromisso
+					 com a excelência.
+					</p>
+                    <a href="" class="btn btn-primary mt-2">Ver tudo</a>
+                </div>
+                <div class="col-lg-9 pt-5 pt-lg-0">
+                    <div class="bg-primary rounded" style="height: 200px;"></div>
+                    <div id="box_rolagem" class="owl-carousel service-carousel position-relative" style="margin-top: -100px; padding: 0 30px;">
+                        <div id="box" class="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Direito civil</h5>
+                            <p class="m-0">Trata das relações jurídicas entre pessoas físicas e jurídicas</p>
+                        </div>
+                        <div id="box" class="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Direito Societário</h5>
+                            <p class="m-0">Trata das relações jurídicas entre sócios</p>
+                        </div>
+						
+                        <div id="box" class="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Direito Tributário</h5>
+                            <p class="m-0">Trata das relações jurídicas entre pessoas físicas e jurídicas</p>
+                        </div>
+						
+						<div id="box" class="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Direito Empresarial</h5>
+                            <p class="m-0">Trata das relações jurídicas entre pessoas jurídicas</p>
+                        </div>
+						
+						<div id="box" class="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Direito Trabalhista</h5>
+                            <p class="m-0">Trata das relações jurídicas no âmbito trabalhista</p>
+                        </div>
+						
+						<div id="box" class="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Direito de família</h5>
+                            <p class="m-0">Trata das relações jurídicas entre a família</p>
+                        </div>
+						
+						<div id="box" class="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Direito imobiliário</h5>
+                            <p class="m-0">Trata das relações jurídicas entre pessoas e coisas</p>
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Appointment Start -->
+    <!--<div id="box_rolagem" class="container-fluid py-5">-->
+    <div id="contato-link" class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="bg-appointment rounded">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-lg-6 py-5">
+                        <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
+                            <h1 class="text-center text-white mb-4">Se preferir, faça uma pergunta por email</h1>
+                            <form action="./enviar.php" method="post">
+                                <div class="form-group">
+                                    <label for="nome">Seu nome</label>
+                                    <input type="text" class="form-control border-0 p-4" id="nome" name="nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Seu e-mail</label>
+                                    <input type="email" class="form-control border-0 p-4" id="email" name="email" required>
+                                </div>
+                  
+				  			<div class="form-group">
+                                <label for="mensagem">Digite sua mensagem</label>
+                                <textarea class="form-control border-0 p-4" id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                                <div>
+                                    <a href="https://api.whatsapp.com/send?phone=5565999876296&text=Ol%C3%A1%2C%20gostaria%20de%20conversar." target="_blank"class="btn btn-primary btn-block border-0 py-3">Enviar</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Features Start -->
+    <div id="container_preto" class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div id="img-box" class="feature-text bg-white rounded p-lg-5">
+                        <h6 class="text-uppercase">ISO 9001</h6>
+                        <h1 class="mb-4">Objetivo da Qualidade</h1>
+                        <div class="d-flex mb-4">
+                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                <h5 class="text-secondary m-0">01</h5>
+                            </div>
+                            <div id="frase" class="ml-4">
+                                <h5>Objetivo da qualidade</h5>
+                                <p class="m-0">Promover a satisfação do cliente</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                <h5 class="text-secondary m-0">02</h5>
+                            </div>
+                            <div id="frase" class="ml-4">
+                                <h5>Eficiência</h5>
+                                <p class="m-0">A eficiência é a chave para alcançar resultados excepcionais, pois permite otimizar recursos, minimizar desperdícios e maximizar a produtividade</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                <h5 class="text-secondary m-0">03</h5>
+                            </div>
+                            <div id="frase" class="ml-4">
+                                <h5>Resultados</h5>
+                                <p class="m-0">Atender rigorosamente todos os requisitos relacionados aos serviços jurídicos
+								e os prazos determinantes no Processo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Action Start -->
+    <div id="container_preto2" class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="bg-action rounded" style="height: 500px;">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <h1 class="text-white mb-4">Vamos começar! Faça uma consulta gratuita com profissionais renomados</h1>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="https://api.whatsapp.com/send?phone=5565999876296&text=Ol%C3%A1%2C%20gostaria%20de%20conversar." target="_blank">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Action End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center pb-2">
+                <h6 class="text-uppercase">Nossa equipe</h6>
+                <h1 class="mb-4">Conheça</h1>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="bg-primary rounded" style="height: 200px;"></div>
+                    <div class="owl-carousel team-carousel position-relative" style="margin-top: -97px; padding: 0 30px;">
+                        <div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dr. Francismar Sanches Lopes</h5>
+                            <p class="mb-3 px-4">Diretor Jurídico</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dr. Luciano de Sales</h5>
+                            <p class="mb-3 px-4">Diretor Jurídico / Adm.</p><br>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dr. Ayrton Freitas Rego</h5>
+                            <p class="mb-3 px-4">Advogado Associado</p>
+                            <div id="img1" class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dr. Clésio Plates de Oliveira</h5>
+                            <p class="mb-3 px-4">Advogado Associado</p>
+                            <div id="img1" class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dra. Elisa Flumian Pires de Sales</h5>
+                            <p class="mb-3 px-4">Advogada Associada</p>
+                            <div id="img1" class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dra. Patrícia Elisa Vieira de Brito</h5>
+                            <p class="mb-3 px-4">Advogada Associada</p>
+                            <div id="img1" class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dra. Rikelle Maia</h5>
+                            <p class="mb-3 px-4">Advogada Associada</p><br>
+                            <div id="img1" class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+						
+                        <div id="advogado" class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Dr. Daniel Vieira </h5>
+                            <p class="mb-3 px-4">Advogado Associado</p><br>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- blog inicio -->
+
+    <div class="titulo-blog">
+        <h2>Notícias</h2>
+        <p>Veja nossas últimas postagens</p>
+    </div>
+    <div class="blog">
+        <div class="blog-noticia">
+            <figure class="div-imagem-post">
+                <img class="imagem-post" src="./img/blog/mercadoria.jpg" alt="mercadoria">
+            </figure>
+            <h3>Não há incidência do icms sobre deslocamento de mercadorias entre estabelecimentos do mesmo contribuinte em estados distintos.</h3>
+            <p>
+                O Supremo Tribunal Federal (STF) reafirmou entendimento jurisprudencial quanto a não incidência do Imposto sobre operações relativas à Circulação de Mercadorias e sobre prestação de Serviços de Transporte Interestadual e...
+            </p>
+            <span>Dr. Ayrton Freitas Rego</span>
+            <a class="ler" href="not1.html">Ler mais</a>
+        </div>
+
+        <div class="blog-noticia">
+            <figure class="div-imagem-post">
+                <img class="imagem-post" src="./img/blog/ctps.jpg" alt="Carteira de trabalho">
+            </figure>
+            <h3>As plataformas digitais - Os entregadores devem ter carteira de trabalho ou configura trabalho autônomo?</h3>
+            <p>
+                Em tempos de pandemia, com o fechamento de certos setores, outros têm se adaptado a nova realidade, e muitos têm contado com o auxílio de plataformas digitais, como é o caso do setor de transporte urbano ou o setor alimentício que vem impulsionando estas atividades...
+            </p>
+            <span>Dr. Fernando Cézar S. Reis</span>
+            <a class="ler" href="not2.html">Ler mais</a>
+        </div>
+
+        <div class="blog-noticia">
+            <figure class="div-imagem-post">
+                <img class="imagem-post" src="./img/blog/redesocial.jpg" alt="Redes sociais">
+            </figure>
+            <h3>Uso indevido do Mensageiros Eletrônicos pelas empresas e seus efeitos.</h3>
+            <p>
+                Com a vinda dos mensageiros instantâneos e as redes sociais, os Empresários descobriram uma ótima ferramenta para expandir ainda mais a visibilidade de seus negócios, e comunicação direta com seus consumidores, tais ferramentas deixaram de agir como um acessório...
+            </p>
+            <span>Dr. Fernando Cézar S. Reis</span>
+            <a class="ler" href="not3.html">Ler mais</a>
+        </div>
+
+        <div class="blog-noticia">
+            <figure class="div-imagem-post">
+                <img class="imagem-post" src="./img/blog/leilao.png" alt="Leilão">
+            </figure>
+            <h3>A correta base de cálculo do imposto sobre transmissão de bens imóveis (ITBI) em operações de leilão judicial ou extrajudicial é o valor da arrematação entende STJ.</h3>
+            <p>
+                O Superior Tribunal de Justiça (STJ) em recente julgado (REsp nº 1.805.862-SP) afirmou que já é pacificado na corte o entendimento de que o valor venal para efeito de base de cálculo do...
+            </p>
+            <span>Dr. Ayrton Freitas Rego</span>
+            <a class="ler" href="not4.html">Ler mais</a>
+        </div>
+    </div>
+
+    <nav class="lista-noticias">
+        <ul>
+            <li><a class="a_1">1</a></li>
+            <li><a href="blog.html">2</a></li>
+            <li><a href="blog.html">3</a></li>
+            <li><a href="blog.html">4</a></li>
+            <li><a href="blog.html">5</a></li>
+            <li><a href="blog.html">+</a></li>
+        </ul>
+    </nav>
+    <!-- blog fim -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Endereço</h5>
+                        <p id="endereco" class="m-0">R. Benedito Pereira de Oliveira, 277 W - Centro</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Email</h5>
+                        <p class="m-0">financeiro@slsadvogados.com.br</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Contato</h5>
+                        <p class="m-0">(65) 3326-6454</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 mt-n2 display-4 text-primary text-uppercase">SLS</h1>
+                </a>
+					<p>Ser reconhecida onde estiver pela defesa dos interesses dos
+					nossos clientes, demonstrando segurança e solidez na atuação
+					da equipe, tornando-se referência para sociedade.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com/slsadvogadosassociados" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.linkedin.com/company/sls-advogados-associados/about/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/slsadvogadosassociados/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-semi-bold text-primary mb-4">Links populares</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Quem somos</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Conteúdo</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Estágio</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contato</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-semi-bold text-primary mb-4">Links rápidos</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>FAQs</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Ajuda</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Termos</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacidade</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Site Map</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-semi-bold text-primary mb-4">Newsletter</h4>
+                <p>Em breve você poderá assinar a nossa Newsletter* e ficar por dentro das melhores notícias do mundo jurídico.</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input id="newsletter" type="text" class="form-control border-0" style="padding: 25px;" placeholder="Seu email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4">Assinar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-4 mt-5 mx-0" style="background: rgba(256, 256, 256, .05);">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">&copy; <a class="font-weight-bold" href="#">SLS & Advogados Associados 2023</a>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!--svg whatsapp-->
+    <a class="whatsapp-div" href="https://api.whatsapp.com/send?phone=5565999876296&text=Ol%C3%A1%2C%20gostaria%20de%20conversar." target="_blank">
+        <img class="whatsapp" src="./img/whatsapp.svg" alt="whatsapp">
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!--Javascript para o formulário-->
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
