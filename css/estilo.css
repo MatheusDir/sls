@@ -176,12 +176,12 @@
 
 .blog{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	/*grid-auto-rows: 480px;*/
 	margin: 0 auto;
 	max-width: 1000px;
 	gap: 30px;
-	padding: 26px;
+	padding: 13px;
 }
 
 .blog-noticia{
@@ -247,7 +247,7 @@
 	max-width: 1000px;
 	display: flex;
 	place-content: end;
-	padding: 0px 26px;
+	padding: 0px 13px;
 }
 
 .lista-noticias ul{
